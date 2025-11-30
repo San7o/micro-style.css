@@ -6,3 +6,10 @@ Minimal, simple, tunable style for your websites.
 Author:  Giovanni Santini
 Mail:    giovanni.santini@proton.me
 License: MIT
+
+Usage
+-----
+
+To use this stylesheet, include the following in your <head>:
+
+    <link rel="stylesheet" href="https://san7o.github.io/micro-style.css/micro-style.css" />
