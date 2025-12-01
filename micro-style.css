@@ -168,6 +168,26 @@ figure img {
   margin: 0 auto;
 }
 
+/* Blockquote */
+
+blockquote {
+  margin-inline-start: 2rem;
+  margin-inline-end: 0;
+  margin-block: 1rem;
+  padding: 2rem 2rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+blockquote p {
+  display: inline;
+  white-space: pre-line;
+}
+blockquote p + p::before {
+  content: "\A";  /* line break */
+  white-space: pre;
+}
+
 /*
  * Code
  */
@@ -181,7 +201,7 @@ code {
   hyphens: manual;
 }
 
-.sourceCode {
+.sourceCode, .org-src-container {
   background-color: var(--code-background);
   overflow: auto;
   margin: 1em 0;
