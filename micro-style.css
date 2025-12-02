@@ -27,6 +27,8 @@
   --link-hover: #0000aa;
   --link-active: #0000cc;
   --code-background: #eeeeee;
+  --card-border: #040404;
+  --card-background: #ddd;
 
   /*
    * Syntax highlighting - light theme
@@ -62,6 +64,8 @@
     --link-hover: #66d9ff;
     --link-active: #1fb6ff;
     --code-background: #090912;
+    --card-border: #ddd;
+    --card-background: #040404;
 
     /* Syntax highlighting - dark theme */
     --code-alert: #ff5555;
@@ -150,10 +154,10 @@ header {
 }
 
 .card { 
-  background: #040404; 
+  background: var(--card-background); 
   padding: 1.2rem;
   border-radius: 8px; 
-  border: 1px solid #ddd; 
+  border: 1px solid var(--card-border); 
   box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 }
 
