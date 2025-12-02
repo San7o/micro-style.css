@@ -211,6 +211,7 @@ pre {
   padding: 1rem 1.4rem;
   margin: 0;
   overflow: visible;
+  overflow-x: auto;
 }
 
 pre code {
