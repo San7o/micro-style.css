@@ -90,7 +90,7 @@ body {
   background-color: var(--bg);
 
   display: grid;
-  grid-template-columns: 1fr min(80rem, 65%) 1fr;
+  grid-template-columns: 1fr min(80rem, 55%) 1fr;
   
   font-family: monospace;
   font-size: 1rem;
@@ -100,6 +100,8 @@ body {
 
 body > * {
   grid-column: 2;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 body > .topnav {
@@ -155,7 +157,7 @@ h4 {
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 /*
